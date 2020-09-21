@@ -1,3 +1,11 @@
+## About Poler
+Poler is a React based PWA where people can easily create polls and share it with their friends. The results get updated in real-time. It uses Firebase in order to register and count polls. 
+Checkout Poler Live on here: https://poler.netlify.app 
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
