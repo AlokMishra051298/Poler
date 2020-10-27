@@ -72,6 +72,12 @@ function AddPoll(e) {
                 history.push("/Poll/" + snap.key)
             })
         }
+        else if (c <= 1) {
+            toastr.warning("Minimum 2 options needed!!!")
+        }
+        else {
+            toastr.warning("Please provide the question.")
+        }
 
     }
 
