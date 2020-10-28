@@ -55,7 +55,12 @@ function Poll(props) {
     }
 
     function sharePoll() {
-        navigator.share(shareData.current)
+        if(navigator.share){
+            navigator.share(shareData.current)
+        }
+        else{
+            toastr.warning("Oops!! this feature is not supported in your browser");
+        }
     }
     return (
         <div>
